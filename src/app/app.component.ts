@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
 	onGeneratePdfReport() {
 		this.restManager.restPdf().subscribe((response) => {
 			console.log("response--->", response);
-			saveAs(response, "wellsfargoList");
+			saveAs(response, "wellsFargo");
 
 		});
 	}
@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
 	onGenerateExcelReport() {
 		this.restManager.restExcel().subscribe((response) => {
 			console.log("response--->", response);
-			saveAs(response, "wellsfargoList");
+			saveAs(response, "wellsFargo");
 		})
 	}
 }
