@@ -1,6 +1,11 @@
 {
-  "name": "Eureka-Solutions",
+  "name": "wellsfargo-frontend",
   "version": "0.0.0",
+  "description": "Wellsfargo Pdf Excel Download",
+  "author": {
+    "name": "Nandalalainfotech",
+    "email": "nandalalainfotech@gmail.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
